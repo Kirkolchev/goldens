@@ -224,6 +224,35 @@ div, p, input, button, span, a {
         transform: scale(1);
       }
 
+      .rocket{
+        transform: translate(100%, 0px);
+        opacity: 0;
+        transition: all 1.5s ease 0s;
+      }
+      .rocket._active{
+        transform: translate(0px, 0px);
+        opacity: 1;
+      }
+
+      .brain{
+        transform: translate(-100%, 0px);
+        opacity: 0;
+        transition: all 1.5s ease 0s;
+      }
+      .brain._active{
+        transform: translate(0px, 0px);
+        opacity: 1;
+      }
+      .abouts{
+        transform: translate(100%, 0px);
+        opacity: 0;
+        transition: all 1.5s ease 0s;
+      }
+      
+      .abouts._active{
+        transform: translate(0px, 0px);
+        opacity: 1;
+      }
  /* Animation */
 
 
