@@ -38,6 +38,16 @@ p{
 }
 
 
+a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+
 
 div, p, input, button, span, a {
 	box-sizing: border-box;
@@ -106,13 +116,11 @@ div, p, input, button, span, a {
     
 }
 .menu a {
-    text-decoration: none;
     color: white;
 }
 
 .menu a:hover{
-    text-decoration: underline;
-    
+  background-size: 100% 2px;
 }
 
 
@@ -476,6 +484,7 @@ footer{
 footer ul{
   list-style: none; 
   padding: 0px;
+ 
 }
 
 footer a{
@@ -531,20 +540,26 @@ footer a{
     color: #FFFFFF;
     padding-top: 20px;
   }
- 
+  
+
   .gps-list a:hover{
-    text-decoration: underline;
-    transition: all 1.0s ease;
+    background-size: 100% 2px;
   }
+
   
   .gps-list li{
     margin-top: 17px;
+    
   }
 
 .social {
   display: flex;
   justify-content: space-between;
   width:70%;
+}
+
+.gps-list{
+  text-align: center;
 }
 
 
@@ -900,7 +915,7 @@ img{
   .brain{
     width: 90%;
   }
-к
+
   .wrap-title h1 {
    
     font-size: 43px;
