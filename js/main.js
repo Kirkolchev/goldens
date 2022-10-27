@@ -7,7 +7,7 @@ $('.slaider').slick({
     slidesToShow: 3,
     slidesToScroll: 2,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
     arrows: false,
     dots: true,
     variableWidth: true,
